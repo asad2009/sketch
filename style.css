@@ -1,0 +1,28 @@
+body{
+background-color:gold ;
+}
+label{
+    color: rgb(0, 0, 0);
+    background-color: grey;
+    font-size: 30;
+}
+#show_button{
+    float: right;
+}
+canvas{
+    border:5px solid springgreen;
+    border-radius: 30px;
+    margin-top: 50px;
+    animation-name:animationeffict ;
+    animation-duration: 5s;
+    animation-iteration-count:infinite ;
+}
+@keyframes animationeffict {
+    from{box-shadow: 1px 2px 40px red;}
+    to{box-shadow: 1px 2px 40px rgb(17, 0, 255);}
+
+}
+p{
+padding-top: 10px;
+font-size: 25px;
+}
